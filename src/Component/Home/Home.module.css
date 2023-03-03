@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Input {
+    border: 2px solid black;
+}
+.writtingPad {
+    margin-top: 3.5rem;
+    border: 1px rgb(149, 149, 149) solid;
+    box-shadow: 0px 0px 7px -1px;
+    background-color: white;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
+    align-items: center;
+  }
+  .writtingPad textarea {
+    width: 45rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    margin: 2rem;
+    height: 40rem;
+  }
+  .para {
+    height: 35rem;
+    width: 40rem;
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+  }
