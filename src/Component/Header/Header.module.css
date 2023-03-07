@@ -1,29 +1,29 @@
- /* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  .header {
-     border: 1px red solid; 
+  .header{
     display: flex;
-    padding-left: 2rem;
     justify-content: space-evenly;
+    background-color: rgb(238, 233, 233);
+    border: 1px rgb(204, 200, 200) solid;
     width: 100vw;
-    padding: 0.5rem;
-    position: fixed;
-    margin-bottom: 37rem;
-    background-color: rgb(209, 199, 199);
-  }
- 
-  .main {
-    display: flex;
-    flex-direction: column;
+    position: sticky;
+    padding: 0rem 8rem 0rem 8rem;
     align-items: center;
-    justify-content: center;
   }
-  .btn {
-    background: transparent;
+ .btn{
+    background-color: transparent;
     border: none;
-  } 
- 
-   */
+ }
+@media (max-width:750px){
+    input{
+      width: 2rem;
+    }
+}
+
+.scaleBar{
+  margin-top: -.6rem;
+  position: absolute;
+}
