@@ -54,9 +54,9 @@ const Header = ({ handleTextStyle ,handleColor,onImageChange,handleClick}) => {
     >
       <option>100</option>
       <option>50</option>
-      <option>70</option>
-      <option>90</option>
-      <option>10</option>
+      <option>75</option>
+      <option>150</option>
+      <option>200</option>
     </select>}
   ];
 

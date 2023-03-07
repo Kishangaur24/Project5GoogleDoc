@@ -28,14 +28,14 @@ function handleClick(data) {
     if (data == 50) {
       select.current.style.transform = 'scale(0.5)';
     }
-    if (data == 90) {
-      select.current.style.transform = 'scale(0.8)';
+    if (data ==75) {
+      select.current.style.transform = 'scale(0.7)';
     }
-    if (data == 10) {
-      select.current.style.transform = 'scale(0.2)';
+    if (data ==150) {
+      select.current.style.transform = 'scale(1.5)';
     }
-    if (data == 70) {
-      select.current.style.transform = 'scale(0.2)';
+    if (data ==200) {
+      select.current.style.transform = 'scale(2)';
     }
   }
 
@@ -113,9 +113,6 @@ function handleClick(data) {
        
         if(i===14){
             document.execCommand("superscript")
-        }
-        if(i===15){
-            // document.execCommand("superscript")
         }
         if(i===16){
             setSize(size-1)
